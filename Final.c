@@ -129,7 +129,7 @@ int FileOpen(Log *list,int count,int mask_, int max, char* startTime, char* endT
     }
 
     /*Bubble Sort
-     list배열에 저장된 데이터를 시간순으로 정렬
+     list배열에 저장된 데이터를 시간순으로 정렬 
    */
     for (int j = 0; j<category_count - 1; j++)
 	{
